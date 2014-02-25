@@ -84,8 +84,9 @@ a {
     }
 
     p {
-        margin-left:5%;
-        font-size:0.9em;
+        margin-left:3%;
+        margin-right:1%;
+        font-size:1em;
         line-height: 145%;
     }
 
