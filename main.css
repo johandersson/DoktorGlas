@@ -1,0 +1,109 @@
+body{
+    background: lightyellow;
+}
+
+
+p {
+    color: #333;
+    font-size: 1em;
+    font-family: inherit;
+    margin-left: 5em;
+    line-height: 145%;
+    margin-bottom: 0;
+}
+
+p + p {
+    text-indent: 1.5em;
+    margin-top: 0;
+}
+
+
+
+::selection {
+    background: lightyellow; /* Safari */
+}
+::-moz-selection {
+    background: lightyellow; /* Firefox */
+}
+
+blockquote{
+    font-size: 1.2em;
+    line-height: 140%;
+}
+
+cite {
+    font-size: 0.9em;
+}
+
+h1 {
+    color: cornflowerblue;
+    text-align:right;
+    font-size: 2em;
+    font-weight: 700;
+    font-family: 'Gilda Display', sans-serif;
+
+}
+
+h2 {
+    font-family: inherit;
+    font-weight: 400;
+}
+
+.coloredDot {
+    /*Verdana is nice only for dots!*/
+    font-family: 'Verdana', sans-serif;
+    color: black;
+    font-weight: bold;
+}
+
+.regularList {
+    color: #333;
+}
+
+body {
+    font-family: 'Gilda Display', serif;
+    background-color: #FFF;
+    color:black;
+    padding: 0;
+    margin: 0 auto;
+    width: 75%;
+}
+
+
+a {
+    color:inherit;
+}
+
+.arrows {
+    font-family: inherits;
+}
+
+@media all and (max-width: 480px) {
+    body {
+        width: 100%;
+    }
+
+    p {
+        margin-left:5%;
+        font-size:0.9em;
+        line-height: 145%;
+    }
+
+    h1 {
+        padding-left: 5%;
+        font-size: 2.5em;
+    }
+
+    .back{
+        margin-left:5.5%;
+        font-size:1.5em;
+    }
+
+}
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+
+
+}
