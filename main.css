@@ -17,6 +17,12 @@ p + p {
     margin-top: 0;
 }
 
+.star{
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+
+}
 
 
 ::selection {
@@ -31,9 +37,6 @@ blockquote{
     line-height: 140%;
 }
 
-cite {
-    font-size: 0.9em;
-}
 
 h1 {
     color: #333;
