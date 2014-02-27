@@ -24,6 +24,10 @@ p + p {
 
 }
 
+.text-after-star{
+    text-indent:0;
+}
+
 
 ::selection {
     background: lightyellow; /* Safari */
