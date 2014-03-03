@@ -2,6 +2,9 @@ body{
     background: lightyellow;
     font-family: 'Gilda Display', sans-serif;
 }
+a {
+  text-decoration:none;
+}
 
 cite{
     font-style: normal;
@@ -20,6 +23,7 @@ p {
 }
 .right{
     text-align:right;
+    margin-right:2em;
 }
 
 p + p {
@@ -28,7 +32,8 @@ p + p {
 }
 
 section {
-    margin-bottom:10%;
+    margin-top:8%;
+    margin-bottom:7%;
 }
 
 .star{
@@ -95,6 +100,15 @@ footer {
     height:6%;
     width:100%;
     background: white;
+}
+
+header {
+    position:fixed;
+    left:0;
+    top:0;
+    height:3%;
+    width:100%;
+    background-color:white;
 }
 
 a {
