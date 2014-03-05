@@ -27,8 +27,7 @@ p {
 }
 
 .arrow{
-    font-size:1.5em;
-    margin-bottom:1%;
+    font-size:2em;
 }
 
 p + p {
@@ -37,6 +36,10 @@ p + p {
 }
 
 section {
+    margin-bottom:3%;
+}
+
+footer{
     margin-bottom:3%;
 }
 
@@ -118,11 +121,6 @@ a {
     h1 {
         padding-left: 5%;
         font-size: 2em;
-    }
-
-    .back{
-        margin-left:5.5%;
-        font-size:1.5em;
     }
 
 }
