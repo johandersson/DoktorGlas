@@ -19,10 +19,10 @@ p {
 }
 
 .left{
-    text-align:left;
+    float:left;
 }
 .right{
-    text-align:right;
+    float:right;
     margin-right:2em;
 }
 
