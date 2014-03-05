@@ -97,14 +97,7 @@ body {
     width: 75%;
 }
 
-footer {
-    position:fixed;
-    left:0;
-    bottom:0;
-    height:9%;
-    width:100%;
-    background: white;
-}
+
 
 a {
     color:inherit;
