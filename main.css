@@ -37,6 +37,10 @@ button {
     margin-bottom:2em;
 }
 
+.middle{
+    margin-left:25%;
+}
+
 .button-left{
     float:left;
     margin-bottom:2em;
@@ -46,6 +50,10 @@ button:hover {
     border: none;
     background:red;
     box-shadow: 0px 0px 1px #777;
+}
+
+.index{
+    margin-top:6em;
 }
 
 .left{
@@ -79,6 +87,10 @@ footer{
     margin-bottom: 1em;
     font-size: 1.5em;
 
+}
+
+.text-left{
+    text-align:left;
 }
 
 mark{
