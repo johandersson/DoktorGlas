@@ -37,9 +37,6 @@ button {
     margin-bottom:2em;
 }
 
-.middle{
-    margin-left:25%;
-}
 
 .button-left{
     float:left;
@@ -49,7 +46,7 @@ button {
 button:hover {
     border: none;
     background:red;
-    box-shadow: 0px 0px 1px #777;
+    box-shadow: 0 0 1px #777;
 }
 
 .index{
@@ -62,10 +59,6 @@ button:hover {
 .right{
     float:right;
     margin-right:2em;
-}
-
-.arrow{
-    font-size:2em;
 }
 
 p + p {
