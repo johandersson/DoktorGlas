@@ -1,7 +1,7 @@
 body{
     font-size: 100%;
     background: lightyellow;
-    font-family: 'Gilda Display', sans-serif;
+    font-fam ily: 'Gilda Display', sans-serif;
 }
 a {
   text-decoration:none;
@@ -46,7 +46,7 @@ button {
 .container{
     width: 90%;
     padding: .625em 1.0548523% 1.5em;
-    margin-left: 0 auto;
+    margin-left: 0 auto;
 }
 
 button:hover {
@@ -121,7 +121,7 @@ h1 {
 
 .header-text{
     font-size:0.8em;
-    color:lightgrey;
+    color: #363636;
     background:white;
 }
 
@@ -148,11 +148,14 @@ a {
 
 
 
-@media only screen
-and (min-device-width : 768px)
-and (max-device-width : 1024px) {
 
+@media all and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+    .container{
+        width: 70%;
+    }
 }
+
 
 @media all and (min-width: 1200px) {
 .container article {
