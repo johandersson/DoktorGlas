@@ -172,3 +172,13 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px) {
 
 }
+
+@media all and (min-width: 1200px) {
+.container article {
+    -moz-column-count: 2; /* Firefox */
+    -webkit-column-count: 2; /* Safari, Chrome */
+    column-count: 2;
+    -moz-column-gap: 1em; /* Firefox */
+    -webkit-column-gap: 1em; /* Safari, Chrome */
+    column-gap: 1em;
+}
