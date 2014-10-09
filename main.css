@@ -44,6 +44,12 @@ button {
     margin-bottom:2em;
 }
 
+.container{
+    width: 95%;
+    padding: .625em 1.0548523% 1.5em;
+    margin: auto 0;
+}
+
 button:hover {
     border: none;
     background:red;
