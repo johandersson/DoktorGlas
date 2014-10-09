@@ -178,7 +178,15 @@ and (max-device-width : 1024px) {
     -moz-column-count: 2; /* Firefox */
     -webkit-column-count: 2; /* Safari, Chrome */
     column-count: 2;
-    -moz-column-gap: 1em; /* Firefox */
-    -webkit-column-gap: 1em; /* Safari, Chrome */
-    column-gap: 1em;
+    -moz-column-gap: 0.5em; /* Firefox */
+    -webkit-column-gap: 0.5em; /* Safari, Chrome */
+    column-gap: 0.5em;
+
+}
+
+    /* Rubrik till vänster på skrivbordskärm*/
+    h1{
+        text-align:left;
+        margin-left:7%;
+    }
 }
