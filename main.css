@@ -14,7 +14,6 @@ p {
     color: #333;
     font-size: 1em;
     font-family: inherit;
-    margin-left: 5em;
     line-height: 145%;
     margin-bottom: 0;
 }
@@ -45,9 +44,9 @@ button {
 }
 
 .container{
-    width: 95%;
+    width: 90%;
     padding: .625em 1.0548523% 1.5em;
-    margin: auto 0;
+    margin-left: 0 auto;
 }
 
 button:hover {
@@ -114,7 +113,6 @@ blockquote{
 h1 {
     color: #333;
     text-align:right;
-    margin-right:5%;
     font-size: 2em;
     font-weight: normal;
     font-family: 'Josefin Sans', sans-serif;
@@ -148,24 +146,7 @@ a {
     color:inherit;
 }
 
-@media all and (max-width: 480px) {
-    body {
-        width: 100%;
-    }
 
-    p {
-        margin-left:3%;
-        margin-right:3%;
-        font-size:1em;
-        line-height: 145%;
-    }
-
-    h1 {
-        padding-left: 5%;
-        font-size: 2em;
-    }
-
-}
 
 @media only screen
 and (min-device-width : 768px)
@@ -178,15 +159,14 @@ and (max-device-width : 1024px) {
     -moz-column-count: 2; /* Firefox */
     -webkit-column-count: 2; /* Safari, Chrome */
     column-count: 2;
-    -moz-column-gap: 0.5em; /* Firefox */
-    -webkit-column-gap: 0.5em; /* Safari, Chrome */
-    column-gap: 0.5em;
+    -moz-column-gap: 2.5em; /* Firefox */
+    -webkit-column-gap: 2.5em; /* Safari, Chrome */
+    column-gap: 2.5em;
 
 }
 
     /* Rubrik till vänster på skrivbordskärm*/
     h1{
         text-align:left;
-        margin-left:7%;
     }
 }
