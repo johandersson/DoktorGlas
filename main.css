@@ -1,15 +1,17 @@
-body{
+body {
     font-size: 100%;
     background: lightyellow;
     font-fam ily: 'Gilda Display', sans-serif;
 }
+
 a {
-  text-decoration:none;
+    text-decoration: none;
 }
 
-cite{
+cite {
     font-style: normal;
 }
+
 p {
     color: #333;
     font-size: 1em;
@@ -22,28 +24,27 @@ button {
     background-color: #ccc;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
-    border-radius:6px;
+    border-radius: 6px;
     color: #fff;
     cursor: pointer;
-    border:none;
+    border: none;
     min-width: 5em;
     min-height: 2em;
-    padding:1em;
+    padding: 1em;
     transition: background-color 300ms ease-out 0s;
 }
 
-.button-right{
-    float:right;
-    margin-bottom:2em;
+.button-right {
+    float: right;
+    margin-bottom: 2em;
 }
 
-
-.button-left{
-    float:left;
-    margin-bottom:2em;
+.button-left {
+    float: left;
+    margin-bottom: 2em;
 }
 
-.container{
+.container {
     width: 90%;
     padding: .625em 1.0548523% 1.5em;
     margin-left: 0 auto;
@@ -51,20 +52,21 @@ button {
 
 button:hover {
     border: none;
-    background:red;
+    background: red;
     box-shadow: 0 0 1px #777;
 }
 
-.index{
-    margin-top:6em;
+.index {
+    margin-top: 6em;
 }
 
-.left{
-    float:left;
+.left {
+    float: left;
 }
-.right{
-    float:right;
-    margin-right:2em;
+
+.right {
+    float: right;
+    margin-right: 2em;
 }
 
 p + p {
@@ -73,14 +75,14 @@ p + p {
 }
 
 section {
-    margin-bottom:3%;
+    margin-bottom: 3%;
 }
 
-footer{
-    margin-bottom:3%;
+footer {
+    margin-bottom: 3%;
 }
 
-.star{
+.star {
     text-align: center;
     margin-top: 1em;
     margin-bottom: 1em;
@@ -88,41 +90,40 @@ footer{
 
 }
 
-.text-left{
-    text-align:left;
+.text-left {
+    text-align: left;
 }
 
-mark{
-    background:lightyellow;
+mark {
+    background: lightyellow;
 }
-
 
 ::selection {
     background: lightyellow; /* Safari */
 }
+
 ::-moz-selection {
     background: lightyellow; /* Firefox */
 }
 
-blockquote{
+blockquote {
     font-size: 1.2em;
     line-height: 140%;
 }
 
-
 h1 {
     color: #333;
-    text-align:right;
+    text-align: right;
     font-size: 2em;
     font-weight: normal;
     font-family: 'Josefin Sans', sans-serif;
 
 }
 
-.header-text{
-    font-size:0.8em;
+.header-text {
+    font-size: 0.8em;
     color: #363636;
-    background:white;
+    background: white;
 }
 
 h2 {
@@ -130,46 +131,47 @@ h2 {
     font-weight: 400;
 }
 
-
 body {
     font-family: 'Gilda Display', serif;
     background-color: #FFF;
-    color:black;
+    color: black;
     padding: 0;
     margin: 0 auto;
     width: 75%;
 }
 
-
-
 a {
-    color:inherit;
+    color: inherit;
 }
 
-
-
-
-@media all and (min-device-width : 768px)
-and (max-device-width : 1024px) {
-    .container{
+@media all and (min-device-width: 768px)
+and (max-device-width: 1024px) {
+    .container {
         width: 70%;
     }
 }
 
+@media all and (min-width: 1200px), all and (min-device-width: 768px)
+and (max-device-width: 1024px) and (orientation: landscape) {
+    .container article {
+        -moz-column-count: 2; /* Firefox */
+        -webkit-column-count: 2; /* Safari, Chrome */
+        column-count: 2;
+        -moz-column-gap: 2.5em; /* Firefox */
+        -webkit-column-gap: 2.5em; /* Safari, Chrome */
+        column-gap: 2.5em;
 
-@media all and (min-width: 1200px) {
-.container article {
-    -moz-column-count: 2; /* Firefox */
-    -webkit-column-count: 2; /* Safari, Chrome */
-    column-count: 2;
-    -moz-column-gap: 2.5em; /* Firefox */
-    -webkit-column-gap: 2.5em; /* Safari, Chrome */
-    column-gap: 2.5em;
+    }
 
-}
+    @media only screen and (orientation: landscape) {
+        .container {
+            width: 90%;
+        }
+
+    }
 
     /* Rubrik till vänster på skrivbordskärm*/
-    h1{
-        text-align:left;
+    h1 {
+        text-align: left;
     }
 }
