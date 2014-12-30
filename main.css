@@ -57,7 +57,7 @@ button:hover {
 .container {
     width: 90%;
     padding: .625em 1.0548523% 1.5em;
-    margin-left: 0;
+    margin-left: auto;
 }
 
 
